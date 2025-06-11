@@ -17,8 +17,8 @@ CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ['ADMINS', '5873900195'].split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ['CHANNELS', '-1002851899064'].split()]
+ADMINS = 5873900195
+CHANNELS = -1002851899064'
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 auth_channel = environ.get('AUTH_CHANNEL')
