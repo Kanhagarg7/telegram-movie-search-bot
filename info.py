@@ -29,6 +29,20 @@ DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://kanhagarg930123:kanha@
 DATABASE_NAME = environ.get('DATABASE_NAME', "kanha")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
+IMDB_TEMPLATE = "https://www.imdb.com/title/{code}/"
+MELCOW_NEW_USERS = True
+P_TTI_SHOW_OFF = False
+SINGLE_BUTTON = True
+SPELL_CHECK_REPLY = True
+PROTECT_CONTENT = True
+AUTO_DELETE = True
+MAX_BTN = 10
+AUTO_FFILTER = False
+SHORTLINK_API = ""
+SHORTLINK_URL = ""
+IS_SHORTLINK = False
+TUTORIAL = "https://example.com/tutorial"
+IS_TUTORIAL = True
 
 # Messages
 default_start_msg = """
