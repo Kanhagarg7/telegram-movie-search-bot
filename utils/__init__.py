@@ -11,3 +11,4 @@ def save_group_settings(group_id, settings):
     # Dummy save logic for now
     print(f"Saving settings for group {group_id}: {settings}")
   
+temp = {}  # Empty dict to store temporary data (you can change later)
