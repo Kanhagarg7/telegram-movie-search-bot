@@ -28,6 +28,7 @@ DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://kanhagarg930123:kanha@
 
 DATABASE_NAME = environ.get('DATABASE_NAME', "kanha")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
+IMDB = "https://www.imdb.com"
 
 IMDB_TEMPLATE = "https://www.imdb.com/title/{code}/"
 MELCOW_NEW_USERS = True
